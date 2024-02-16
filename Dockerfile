@@ -16,4 +16,5 @@ COPY . .
 # CMD é o comando de inicialização do container.n
 CMD ["node", "index.js"]
 
-# Agora é só utilizar o comando docker build -t nome_da_imagem . Sendo que o ponto é o contexto 
+# Agora é só utilizar o comando docker build -t nome_da_imagem . Sendo que o ponto é o contexto.
+# Para executar o container rodamos o comando: docker container run -d -p 8080:8080 docker-structure
